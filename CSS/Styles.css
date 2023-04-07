@@ -1,0 +1,125 @@
+body{
+   
+    margin: 0px;
+    text-align: center;
+    color: #010e09;
+    font-family: 'Merriweather', serif;
+    
+}   
+h1{
+  color: #3C6255;
+  font-size: 5.625rem;
+  margin:50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  color: #3C6255;
+  font-weight: normal;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+}
+h3{
+  color: #61876E;
+  font-family: 'Montserrat', sans-serif;
+}
+.Top-Container{
+  background-color: #B5D5C5;
+  position: relative;
+  padding-top: 100px;
+}
+.Top{
+  
+  position: absolute;
+  right: 100px;
+  top: 10px;
+  
+}
+.Bottom{
+  position: absolute;
+  left: 100px;
+  bottom: 350px;
+}
+.Moon{
+  position: relative;
+  top: 100px;
+}
+.Middle-Container{
+  text-align: center;
+  position: relative;
+  margin: auto 0;
+  padding-top: 100px;
+}
+.intro{
+  width: 30%;
+  margin: auto; 
+}
+.skill-row{
+   width: 50%;
+   margin: auto;
+   margin: 100px auto 100px auto;
+   text-align: left;
+   line-height: 2;
+   
+}
+.skills{
+  float: left;
+  margin-right: 30px;
+}
+.project{
+  float: right;
+  margin-left: 30px;
+}
+.btn{
+  background: #4e7e6d;
+  border-radius: 7px;
+  color: #eaf0ee;
+  font-size: 20px;
+  padding: 5px;
+  font-weight: 100;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  border: solid #06271c 1px;
+  
+}
+.btn:hover{
+  background: #6ec0a3;
+  background-image: -webkit-linear-gradient(top, #51a89d, #59a89b);
+  background-image: -moz-linear-gradient(top,#51a89d,#59a89b);
+  background-image: -o-linear-gradient(top,#51a89d,#59a89b);
+  background-image: linear-gradient(to bottom,#51a89d,#59a89b);
+  text-decoration: none;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: gray;
+  border-width: 5px;
+  width:25px;
+  margin: 100px auto;
+  
+}
+
+.Bottom-Container{
+  background-color: #B5D5C5;
+  margin-top: 30px;
+  position: relative;
+  padding-top: 20px;
+  line-height: 2;
+  padding-bottom: 20px;
+   
+}
+
+p{
+  line-height: 2;
+}
+.footer-link{
+  margin: auto 25px auto auto;
+  color: #3C6255;
+}
+.copyrite{
+  color: #696969;
+  font-size: 0.75rem;
+}
